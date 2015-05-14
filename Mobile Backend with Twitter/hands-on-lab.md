@@ -182,8 +182,6 @@ Přidáme do **MainPage** následující kód:
                 string message;
                 try
                 {
-                    // Change 'MobileService' to the name of your MobileServiceClient instance.
-                    // Sign-in using Facebook authentication.
                     user = await App.MobileService.LoginAsync(MobileServiceAuthenticationProvider.Twitter);
                     message =
                         string.Format("You are now signed in - {0}", user.UserId);
