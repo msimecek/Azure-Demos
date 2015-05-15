@@ -1,16 +1,18 @@
 # Mobilní backend v Azure - Silicon Hill Demo
-V tomto demu blabla...
+V tomto demu vytvoříme mobilní backend pomocí Azure Mobile App a přidáme mu autentizaci přes Twitter. Nakonec upravíme Windows Phone aplikaci tak, aby se s tím vyrovnala.
 
 ## Vytvoření Azure Mobile App
 Přihlásíme se na **Preview** portál (https://portal.azure.com) pomocí Microsoft Account, ke kterému máme vytvořenou subskripci.
 Pokud používáte víc účtů, je vhodné portál otevřít v anonymním režimu prohlížeče. Budete se sice muset pokaždé přihlašovat, ale zase se vyhnete konfliktům mezi účty.
 
 ![](Images/inprivate-ie.png)
+![](Images/inprivate-opera.png)
 
 Vytvořit novou Mobile App:
 ![](Images/nova-mobile-app.png)
 
 Je vhodné pro aplikaci vytvořit i vlastní Resource group a App Service Plan:
+
 ![](Images/nova-resource-group.png)
 
 Jakmile se Mobile App vytvoří (trvá to pár minut), otevře se její Blade.
