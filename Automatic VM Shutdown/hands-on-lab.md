@@ -22,8 +22,8 @@ Abychom mohli provádět management operace s virtuálními stroji (což vypín�
 1. Zvolte directory, která náleží k vašemu Azure účtu (typicky to bude jediná, kterou uvidíte).
 1. Přejděte na záložku **USERS**.
 1. Dole klikněte na **ADD USER**.
-1. Ponechte vybrané "New user in your organization", zadejte **uživatelské jméno** (např. *automation*) a klikněte na šipku vpravo dole.
-1. Následně vyplňte alespoň **Display Name** a opět přejděte dál šipkou. Na roli v tuhle chvíli nezáleží.
+1. Ponechte vybrané "New user in your organization", zadejte **uživatelské jméno** (např. `automation`) a klikněte na šipku vpravo dole.
+1. Následně vyplňte alespoň **DISPLAY NAME** a opět přejděte dál šipkou. Na roli v tuhle chvíli nezáleží.
 
 	![](Images/AD-01.png)
 
@@ -70,15 +70,15 @@ Aby byly ovládací PowerShellové skripty co nejlépe přenositelné, vytvoří
 	
 	![](Images/Variable-01.png)
 	
-1. Jako typ vybereme **String** a pojmenujeme proměnnou **SubscriptionName**.
+1. Jako typ vybereme **String** a pojmenujeme proměnnou `SubscriptionName`.
 
 	![](Images/Variable-02.png)
 
-1. Na další stránce pak zadáme hodnotu (v tomto případě *BizSpark*, ale vy ji nahradíte názvem svojí subskripce.
+1. Na další stránce pak zadáme hodnotu (v tomto případě *BizSpark*, ale vy ji nahradíte názvem svojí subskripce).
 
 	![](Images/Variable-03.png) 
 	
-1. Poté aplikujeme stejný postup a vytvoříme proměnnou **UserName**, do níž dáme jako hodnotu jméno, které jsme zadali v kroku *ADD CREDENTIAL* (v tomto případě tedy **Automation Admin**).
+1. Poté aplikujeme stejný postup a vytvoříme proměnnou `UserName`, do níž dáme jako hodnotu jméno, které jsme zadali v kroku ADD CREDENTIAL (v tomto případě tedy _Automation Admin_).
 
 Nyní by mělo být vše potřebné připraveno a můžeme se pustit do vytváření skriptů.
 
@@ -143,7 +143,7 @@ V tuhle chvíli máme funkční skript, který se připojí k Azure a vypne virt
 
 	![](Images/Schedule-03.png)
 	
-1. Další, neméně důležité nastavení jsou hodnoty vstupních parametrů. Služba Automation poznala, že runbook očekává na vstupu **název VM** a **název Cloud Service**, a proto je musíme nastavit ve třetím kroku. Často jsou obě hodnoty stejné, ale záleží na vašem konkrétním nastavení. V tomto případě se VM i Cloud Service jmenují stejně: *vm01*.
+1. Další, neméně důležité nastavení jsou hodnoty vstupních parametrů. Služba Automation poznala, že runbook očekává na vstupu **název VM** a **název Cloud Service**, a proto je musíme nastavit ve třetím kroku. Často jsou obě hodnoty stejné, ale záleží na vašem konkrétním nastavení. V tomto případě se VM i Cloud Service jmenují stejně: `vm01`.
 
 	![](Images/Schedule-04.png)
  
