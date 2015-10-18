@@ -79,14 +79,11 @@
 
 Může se stát, že systém bude neustále tvrdit, že doplněk *Access Panel Extension* není nainstalovaný. 
 
-	V případě, že používáte režim *InPrivate*, musíte spouštění doplňků explicitně povolit, resp. odškrtnout políčko: `Možnosti internetu -> Osobní údaje -> Při spuštění funkce Procházení se službou InPrivate zakázat panely nástrojů a rozšíření`.
-
-	Pokud to nepomůže, zabírá restartování celého počítače.
+- V případě, že používáte režim *InPrivate*, musíte spouštění doplňků explicitně povolit, resp. odškrtnout políčko: `Možnosti internetu -> Osobní údaje -> Při spuštění funkce Procházení se službou InPrivate zakázat panely nástrojů a rozšíření`.
+- Pokud to nepomůže, zabírá restartování celého počítače.
 	
 Pokud při pokusu o přihlášení zahlásí Azure Active Directory, že přihlašovací URL není pro danou stránku platná, zkontrolujte, že jste ve správné directory.
 
-	Na stránce https://account.activedirectory.windowsazure.com/applications/ vpravo nahoře přepněte na správnou directory a obnovte seznam aplikací. Potom klikněte na danou aplikaci a budete přihlášeni.
-	
-	![](Images/18-choose-ad.png)
-	
-	![](Images/19-apps.png)
+- Na stránce https://account.activedirectory.windowsazure.com/applications/ vpravo nahoře přepněte na správnou directory a obnovte seznam aplikací. Potom klikněte na danou aplikaci a budete přihlášeni.
+- ![](Images/18-choose-ad.png)
+- ![](Images/19-apps.png)
